@@ -153,3 +153,64 @@
         }
     }
 }
+
+.section-content-wrapper {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px 0;
+}
+
+#section-1-content {
+    text-align: center;
+
+    h4 {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 1.3;
+    }
+
+    p {
+        margin-top: 15px;
+        line-height: 1.3;
+    }
+
+    .grid {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        .grid-child {
+
+            .img {
+                height: 250px;
+                width: 250px;
+                border-radius: 50%;
+                background-size: cover;
+                background-position: 50% 50%;
+            }
+
+            .text {
+                margin-top: 25px;
+                font-size: 18px;
+                font-weight: 800;
+            }
+        }
+
+        .grid-child-1-img {
+            background-image: url('../../media/img/behandling.png');
+        }
+
+        .grid-child-2-img {
+            background-image: url('../../media/img/vaadrum.png');
+        }
+
+        .grid-child-3-img {
+            background-image: url('../../media/img/linoleum.png');
+        }
+
+        .grid-child-4-img {
+            background-image: url('../../media/img/traegulve.png');
+        }
+    }
+}
