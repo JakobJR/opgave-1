@@ -214,3 +214,52 @@
         }
     }
 }
+
+#section-2 {
+    background-image: url('../../media/img/trae.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#section-2-content {
+
+    .grid {
+
+        .top {
+            display: flex;
+            flex-direction: row;
+            
+            p {
+                margin-top: 20px;
+            }
+        }
+
+        &__left {
+            margin-right: 15px;
+            width: 50%;
+        }
+
+        &__right {
+            margin-left: 15px;
+            width: 50%;
+        }
+
+        .bottom {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 50px    ;
+            
+            .img {
+                width: 20%;
+                justify-content: center;
+
+                img {
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
+    }
+}
