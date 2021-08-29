@@ -108,6 +108,7 @@
                     margin-right: 30px;
                     max-width: 200px;
                     transition: 0.6s;
+                    transition-delay: 0s;
                     white-space: nowrap;
 
                     @include break-mobile {    
@@ -704,6 +705,7 @@ footer {
 
 .show-info {
     max-width: 200px!important;
+    transition-delay: 0.6s!important;
 }
 
 .white-box-trail {
